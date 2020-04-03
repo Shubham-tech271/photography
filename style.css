@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+}
+h2{
+	font-family:'Playfair Display', serif;
+	font-size:200;
+	font-weight:700;
+	color: #2c2c2c;
+	text-align: center;
+	text-decoration:underline;
+}
+
+p{
+	font-family:'Raleway',serif;
+	color: #2c2c2c;
+	font-size:140%;
+	line-height:180%;
+	font-weight:300%;
+}
+
+img{
+text-align:center;
+max-width:100%;
+height:auto;
+width:auto;
+}
+
+.intro{
+
+background-image:url(sunset.jpeg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+
+}
+ .intro  .inner{
+ 	display: table-cell;
+ 	vertical-align: middle;
+ 	width: 100%;
+ 	max-width: none;
+ }
+
+ .content{
+ 	max-width:600px;
+ 	margin:auto;
+ }
+
+ h1 {
+ 	font-family:'Playfair',serif;
+ 	font-size: 500%;
+ 	color: #FFF;
+ }
+
+ .content p{
+ 	color:#FFF;
+ }
+
+  .inner{
+  	position:absolute;
+  	top:50%;
+  	left:50%;
+transform:translate(-50%,-50%);
+  }
+  /*start nav*/
+
+ul{
+	float:right;
+	list-style-type:none;
+
+}
+ul li{
+	display:inline-block;
+}
+ul li a {
+	text-decoration:none;
+	color: #fff;
+	padding:5px 20px;
+	border:1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;}
+
+.logo img{
+	float:left;
+	width: 75px;
+	height: 40px;
+	padding: 10px 5px 0 5px;
+}
+.main{
+	max-width:1200px;
+	margin:auto;
+}
+  /*nav ends*/
+
+  .one-third-port{
+  	width:25%;
+  	padding:2%;
+  	float:left;
+  	text-align:center;
+ 
+  }
+
+.one-third-port:hover {
+	opacity: .6;
+
+}
+
+.contact p{
+	text-align:center;
+	letter-spacing:5px;
+}
+
+.contact a{
+	color:#2c2c2c;
+}
+.address{
+	color:#FFFF;
+	text-align:center;
+}
+.clearfix{
+	clear:both;
+	height:3%;
+}
+
+
+.social{
+	list-style-type:none;
+	position:absolute; 
+	text-align:center;
+
+}
+.social li{
+	display:inline;
+}
+
+.social{
+	font-size: 270%;
+	margin:3% 0% 0 1%;
+	color:#2c2c2c;
+}
+.social i : hover{
+	color:#606060;
+}
+
+footer.second{
+	background:#2c2c2c;
+
+}
+
+footer.second p{
+	color:#FFF;
+	text-align:center;
+	padding:5%;
+}
